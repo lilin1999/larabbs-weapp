@@ -7,7 +7,7 @@
 </template>
 
 <script>
-  import wepy from '@wepy/core'
+import wepy from '@wepy/core';
 
-  wepy.page({})
+wepy.page({});
 </script>

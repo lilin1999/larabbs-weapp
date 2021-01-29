@@ -1,19 +1,21 @@
 <style lang="less">
+@import (css) './assets/style/app.wxss';
+.page {
+  background-color: #ffffff;
+}
 </style>
 
 <script>
-import wepy from '@wepy/core'
-import eventHub from './common/eventHub'
-import vuex from '@wepy/x'
+import wepy from '@wepy/core';
+import eventHub from './common/eventHub';
+import vuex from '@wepy/x';
 
-wepy.use(vuex)
+wepy.use(vuex);
 
 wepy.app({
-  onLaunch() {
-  },
-  methods: {
-  }
-})
+  onLaunch() {},
+  methods: {}
+});
 </script>
 <config>
 {
