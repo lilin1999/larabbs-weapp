@@ -30,3 +30,12 @@ export function getCaptcha(phone) {
     }
   })
 }
+export function getVerificationCode(key, code) {
+  return request('verificationCodes', {
+    method: 'post',
+    data: {
+      captcha_key: key,
+      captcha_code: code
+    }
+  })
+}
