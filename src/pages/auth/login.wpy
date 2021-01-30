@@ -81,6 +81,14 @@
             @tap="submit"
           >登录</button>
         </div>
+
+        <div class="weui-btn-area">
+          <button
+            class="weui-btn"
+            type="primary"
+            @tap="submit"
+          >登录</button>
+        </div>
       </div>
     </div>
   </div>
