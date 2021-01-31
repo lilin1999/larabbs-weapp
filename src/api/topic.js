@@ -5,3 +5,6 @@ export function getTopics(data) {
     data: data
   })
 }
+export function getCategories(data) {
+  return request('categories')
+}
