@@ -70,7 +70,7 @@
         </a>
         <a
           class="weui-cell weui-cell_access"
-          url=""
+          url="{{ isLoggedIn ? '/pages/topics/user-index?id='+ user.id : '' }}"
         >
           <div
             class="weui-cell__bd"

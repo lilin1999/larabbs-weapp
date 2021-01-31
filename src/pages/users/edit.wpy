@@ -130,7 +130,6 @@
         <button class="weui-btn" type="primary" @tap="submit">修改</button>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
