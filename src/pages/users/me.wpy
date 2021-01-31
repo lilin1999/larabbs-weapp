@@ -25,7 +25,7 @@
         <a
           class="weui-cell weui-cell_access"
           v-if="isLoggedIn"
-          url
+          url="/pages/users/edit"
         >
           <div class="weui-cell__hd avatar-wrap">
             <image
