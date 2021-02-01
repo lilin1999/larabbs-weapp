@@ -5,3 +5,8 @@ export function getReplies(topicId, data) {
     data: data
   })
 }
+export function getUserReplies(userId, data) {
+  return request('users/' + userId + '/replies', {
+    data: data
+  })
+}

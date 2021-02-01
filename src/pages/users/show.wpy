@@ -61,7 +61,7 @@
         </a>
         <a
           class="weui-cell weui-cell_access"
-          url=""
+          url="/pages/replies/user-index?id={{ user.id }}"
         >
           <div
             class="weui-cell__bd"
