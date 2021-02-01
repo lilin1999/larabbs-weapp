@@ -54,7 +54,7 @@
 </style>
 <template>
   <div class="page">
-    <div class="page__bd">
+    <div class="">
 
       <div class="category-list__item">
         <div
