@@ -187,14 +187,6 @@ wepy.page({
         wx.navigateBack();
       }, 2000);
     },
-    // 获取话题数据
-    async loadTopic(id) {
-      const topicResponse = await getTopic(id, {
-        include: 'user,category'
-      });
-
-      this.topic = topicResponse.data;
-    },
     async loadTopic(id) {
       const topicResponse = await getTopic(id, {
         include: 'user,category,topReplies.user'
